@@ -13,5 +13,6 @@ public class App {
 		System.out.println("brfore sorting: " + Arrays.asList(strList));
 		Arrays.sort(strList, String::compareToIgnoreCase);
 		System.out.println("after sorting: " + Arrays.asList(strList));
+		System.out.println("Committing new changes");
 	}
 }
